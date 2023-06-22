@@ -2,13 +2,13 @@
 
 ## Description
 PulseGuard: A Machine Learning Model for Detecting The Likelihood of having a Heart Attack.
+You can checkout the web app here: https://pulseguard.streamlit.app/
 
 ## Getting Started
 
 ### Dependencies
 
 * Sklearn, numpy, pandas, matplotlib, seaborn, streamlit 
-
 
 ### Data
 
