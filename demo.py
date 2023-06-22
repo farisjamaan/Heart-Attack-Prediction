@@ -19,7 +19,7 @@ def heart_attack_prediction(input_data):
 
 
 def main():
-    image = Image.open("web-app\logo.png")
+    image = Image.open("logo.png")
 
     col1, col2, col3 = st.columns(3)
     with col1:
