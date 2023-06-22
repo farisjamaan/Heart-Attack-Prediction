@@ -17,6 +17,15 @@ def heart_attack_prediction(input_data):
     else:
         return st.warning('This person is more likely to have heart attack, Please consult a doctor ASAP 👨‍⚕️')
 
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 
 def main():
     image = Image.open("logo.png")
